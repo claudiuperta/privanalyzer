@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default values -->
+    <integer name="measurementLogRotateSzDefault">1048576</integer>
+    <bool name="startOnBootDefault">true</bool>
+    <bool name="measurementsDisabled">true</bool>
+    <bool name="foregroundServiceRunningDefault">true</bool>
+    <string name="schedulerTypeDefault">FixedRepeatScheduler</string>
+    <integer name="schedulerDefault">0</integer>
+    <integer name="schedulerDebug">3</integer>
+    <integer name="fixedRepeatSchedulerProfileDefault">0</integer>
+    <integer name="fixedRepeatSchedulerBatteryMinPrefDefault">5</integer>
+    <integer name="pingCountDefault">10</integer>
+    
+    <!-- FixedRepeatScheduler -->
+    <string name="fixedRepeatSchedulerProfilePrefKey">KEY_FIXED_SCHEDULER_PROFILE</string>
+    <string name="fixedRepeatSchedulerBatteryMinPrefKey">KEY_FIXED_SCHEDULER_BATTERY_THRESHOLD</string>
+    <string name="fixedRepeatSchedulerNextTime">KEY_FIXED_SCHEDULER_NEXT_TIME</string>
+    <string name="fixedRepeatSchedulerCheckApplicationsNext">KEY_FIXED_SCHEDULER_CHECK_APPS_NEXT</string>
+    <integer name="checkApplicationsIntervalSec">86400</integer>
+    <string name="fixedRepeatSchedulerCheckBrowserHistoryNext">KEY_FIXED_SCHEDULER_CHECK_HISTORY_NEXT</string>
+    <integer name="checkBrowserHistoryIntervalSec">86400</integer>   
+    <integer name="fixedRepeatSchedulerBackoffSeconds">300</integer>
+    <integer name="fixedRepeatSchedulerRetrySeconds">900</integer>
+    <integer name="fixedRepeatSchedulerBatteryLowRetrySeconds">900</integer>
+    <string-array name="fixedRepeatSchedulerProfiles">
+        <item>Every 5 min</item>
+        <item>Eevery 10 min</item>
+        <item>Wevery 15 min</item>
+        <item>Every minute (debug)</item>
+    </string-array>
+    <string-array name="fixedRepeatSchedulerProfilesValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+      	<item>3</item> 
+      	<item>4</item>    
+      	<item>5</item>       
+    </string-array>
+    <string-array name="fixedRepeatSchedulerBatteryThresholds">
+        <item>5%</item>
+        <item>10%</item>
+        <item>20%</item>
+    </string-array>
+    <string-array name="fixedRepeatSchedulerBatteryThresholdsValues">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+    
+    <!-- Global Preferences Keys -->
+    <string name="startOnBootPrefKey">KEY_START_ON_BOOT</string>
+    <string name="schedulerTypePrefKey">KEY_SCHEDULER_TYPE</string>
+    <string name="schedulerConfigPrefKey">KEY_SCHEDULER_CONFIG</string>
+    <string name="measurementLogRotateSzKey">KEY_MEASUREMENT_LOG_ROTATE_SZ</string>
+    <string name="systemLogRotateSzKey">KEY_SYSTEM_LOG_ROATE_SZ</string>
+    <string name="foregroundServiceRunningKey">KEY_FOREGROUND_SERVICE_STARTED</string>
+
+    <!-- Logger -->
+    <integer name="systemLogRotateSzDefault">1048576</integer>
+    <string name="lastSystemLogFileRotatioKey">KEY_LAST_LOG_FILE_ROTATION</string>
+    <integer name="systemLogRotateSecondsDefault">3600</integer>
+         
+</resources>

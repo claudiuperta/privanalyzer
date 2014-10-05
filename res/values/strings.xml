@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">PrivAnalyzer</string>
+    <string name="title">PrivAnalyzer</string>
+    <string name="voiperfStillRunning">PrivAnalyzer service is running</string>
+    <string name="externalFilesDir">privanalyzer</string>
+    
+    <!-- FixdRepeatScheduler -->
+    <string name="fixedRepeatSchedulerTitle">Fixed Repeat Scheduler</string>
+    <string name="fixedRepeatSchedulerSummary">Schedules the measurements at a fixed time interval</string>
+    <string name="fixedRepeatSchedulerInvalidInterval">Interval must be greater than 0</string>
+    <string name="fixedRepeatSchedulerInvalidBattery">Battery threshold must be between 0 and 100</string>
+    <string name="fixedRepeatSchedulerProfilePrefSummary">Change the amount of data that can be used for measurements each week</string>
+    <string name="fixedRepeatSchedulerProfilePrefTitle">Measurements frequency</string>
+    <string name="fixedRepeatSchedulerBatteryMinPrefSummary">Stop measurements when the battery percentage goes below a given level</string>
+    <string name="fixedRepeatSchedulerBatteryMinPrefTitle">Battery threshold (percentage)</string>
+    <string name="costPerWeek">every week</string>
+    
+    <!-- Menu/Prefs Strings -->
+    <string name="menuSettings">Settings</string>
+    <string name="startOnBootPrefSummary">Start Profiler automatically when the phone boots?</string>
+    
+    <!-- Results Table -->
+    <string name="resultDate">Date</string>
+    <string name="resultType">Type</string>
+    <string name="resultCellId">Cell ID</string>
+    <string name="resultTotalCalls">#Calls</string>
+    <string name="resultTotalSMS">#SMS</string>
+    <string name="resultSpeed">Speed</string>
+        
+    <string name="aboutTitle"> PrivAnalyzer </string>
+    
+    <string name="aboutHTML">
+		<![CDATA[
+		<html>
+		 <head></head>
+		 <body style="text-align:justify;color:gray;background-color:black;">
+		 
+		 This application is part of an ongoing research aiming to raise user 
+		 awareness regarding online privacy and targeted advertising. The current version
+		 of the app shows two visualisations, highlighting how much sensitive
+		 data is accessed by the applications.
+		 
+		 <br>
+		 &nbsp;
+		 <br> 
+		 
+		 Both visualisations show a <em>word cloud</em> of all the applications installed 
+		 and their permissions, respectively. The size of each word (permission or application name) is
+		 given by its frequency while the colours range from <span style="color:green">green</span> 
+		 - not sensitive, to <span style="color:red">red</span> - highly sensitive data.
+		 	 
+		 </body>
+		</html>
+		]]>
+</string>
+    
+    
+</resources>
